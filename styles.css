@@ -1,0 +1,68 @@
+/* Basic styles for the blog */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    color: #cc0033;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e4e4e4;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+a {
+    color: #cc0033;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.contact strong {
+    display: block;
+    margin-top: 0.5em;
+}
